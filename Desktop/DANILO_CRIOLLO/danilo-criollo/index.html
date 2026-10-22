@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Responsive Design - BEM</title>
+    <!-- Google Fonts para tipografía moderna -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Encabezado con BEM -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__brand">
+                <i class="fa-solid fa-code header__logo"></i>
+                <span class="header__title">Esteban Solarte</span>
+            </div>
+            <a href="https://wa.me/123456789" target="_blank" class="header__button header__button--whatsapp">
+                <i class="fa-brands fa-whatsapp"></i> Contactar
+            </a>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="main">
+        <section class="hero">
+            <div class="hero__content">
+                <span class="hero__tag">Diseño Web Adaptable</span>
+                <h1 class="hero__title">DANILO ESTEBAN CRIOLLO SOLARTE</h1>
+                <p class="hero__description">
+            Mi nombre es Danilo Esteban Criollo Solarte, soy estudiante de la Tecnología en Sistemas de Información de la Institución Universitaria Antonio José Camacho. Me considero una persona responsable, dedicada y con muchas ganas de aprender y mejorar mis conocimientos. Me interesa la tecnología, la programación y el desarrollo de soluciones informáticas que puedan facilitar las actividades de las personas. Actualmente, me encuentro fortaleciendo mis habilidades en el área de sistemas, con el objetivo de adquirir experiencia, crecer profesionalmente y prepararme para los retos del mundo laboral.
+                </p>
+                <div class="hero__actions">
+                    <a href="#demostracion" class="hero__btn hero__btn--primary">Ver Formas</a>
+                </div>
+            </div>
+
+            <!-- Figura interactiva con clip-path -->
+            <div class="hero__card" id="demostracion">
+                <div class="hero__shape"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; 2026 Esteban Solarte - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
